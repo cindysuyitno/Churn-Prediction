@@ -4,6 +4,17 @@ This project aims to predict the users that has high probability of churn and vi
 # Technologies used
 Python (Lifetime, Matplotlib, Pandas)
 
+## Table of Content:
+### Data Collection:
+  - Sources: confidential
+  - Eight years transaction data
+  - Contains user_id and transaction date
+### Data Cleaning:
+  - Summarize transaction frequency per user and the retention between first and last transaction (in days)
+  - Removing user with transaction less than 2
+### Data Modelling:
+  - There are 2 parameters of the Lifetime model that can be used: probability alive prediction and purchase prediction
+
 # Illustration
 ![alt text](https://github.com/cindysuyitno/Churn-Prediction/blob/main/churn_1.png)
 ![alt text](https://github.com/cindysuyitno/Churn-Prediction/blob/main/churn_2.png)
